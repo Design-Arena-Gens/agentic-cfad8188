@@ -1,0 +1,27 @@
+:root {
+  color-scheme: light;
+  font-family: 'DM Sans', 'Segoe UI', system-ui, -apple-system, BlinkMacSystemFont, 'Helvetica Neue', sans-serif;
+  background: radial-gradient(circle at top, #ffe45e 0%, #ff925e 40%, #ff6f91 70%, #845ec2 100%);
+  color: #1a1333;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: transparent;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button {
+  font-family: inherit;
+}
